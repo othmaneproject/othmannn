@@ -1,0 +1,261 @@
+*{   margin: 0%;
+  padding: 0%;
+}
+
+
+body{   background:url( back01.jpg)
+} 
+
+.video{   padding: 20px 40px;   
+    display: block;
+font-family: Arial;
+size: 5mm;
+
+
+border-top: 3px solid rgb(15, 14, 15) ;
+
+ 
+}
+
+.ma{ background:url( ba.jpg) ; 
+
+    font-family:Comic Sans MS, Comic Sans, cursive;
+    
+
+}
+ 
+
+.cadre { display: flex;
+
+}
+.sg{
+
+
+    font-family:Brush Script MT, Brush Script Std, cursive ;
+color: gainsboro;
+font-size: 1cm;
+}
+
+
+
+.ss{
+ 
+padding-left: 70%;
+  
+}
+
+
+
+  .main{
+    height:100vh;
+    width:100%;  
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    size: 8cm;
+
+
+  }
+  h1{
+    text-align:center;
+    text-transform: uppercase;
+    color: rgb(216, 16, 139) 
+    
+  }
+  
+  .roller{
+    height: 10rem;
+    line-height: 10rem;
+    position: relative;
+    overflow: hidden; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: rgb(216, 16, 139);
+  }
+  
+  
+  #spare-time{
+    font-size: 5rem;
+    font-style: italic;
+    letter-spacing: 1rem;
+    margin-top: 0;
+    color:rgb(216, 16, 139) ;
+    
+    
+    
+  }
+  
+  .roller #rolltext {
+    position: absolute;
+    top: 0;
+    animation: slide 5s infinite;  
+  }
+  
+  @keyframes slide {
+    0%{
+      top:0;
+    }
+    25%{
+      top: -4rem;    
+    }
+    50%{
+      top: -8rem;
+    }
+    72.5%{
+      top: -12.25rem;
+    }
+  }
+
+
+
+
+  
+  
+  .container {
+    width: 100%;
+    min-height: 35vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .text span {
+    font-size: 60px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    color: rgb(236, 17, 207);
+    animation: zoomup 2s linear infinite;
+    animation-delay: calc(200ms * var(--i));
+  }
+  
+  @keyframes zoomup {
+    0%,
+    100% {
+      color: #00c2ba;
+      filter: blur(1px);
+      text-shadow: 0 0 10px #00c2ba, 0 0 20px #00c2ba, 0 0 30px #00c2ba,
+        0 0 40px #00c2ba, 0 0 60px #00c2ba, 0 0 80px #00c2ba, 0 0 100px #00c2ba,
+        0 0 120px #00c2ba;
+    }
+  
+    5%,
+    95% {
+      filter: blur(0);
+      color: rgb(236, 17, 207);
+      text-shadow: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+.cadre2{ border:   ; 
+  width:25cm ;
+margin-left: 12cm;
+padding-left:cm;
+height:7cm ;
+padding-right:25mm;
+padding-top: 3mm;
+
+}
+
+.cadre3{
+  border:  ; 
+  width:50cm ;
+height: 6cm ;
+
+padding-top: 1cm;
+padding-left: 1cm ;
+}
+
+
+.xx{
+  color: black;
+ 
+}
+
+.container1 {
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 3px solid #1e96fc;
+}
+
+.circle:before {
+  content: "Loading";
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.circle:after {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  border-top: 6px solid #d00000;
+  animation: rotate 2s ease-in infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.qq{
+ 
+margin: 1cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
